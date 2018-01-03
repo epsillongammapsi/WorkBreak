@@ -1,6 +1,6 @@
 import time #the time dependency for accessing time
 import webbrowser #the webbrowser dependency to access webbrowser
-#step-1 make the program wait for 1 hour without essentially doing nothing
+#step-1 make the program wait for 1 hour without doing nothing
 count=0
 num_of_breaks=2
 time_intervals=60*60
