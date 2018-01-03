@@ -1,10 +1,10 @@
 import time #the time dependency for accessing time
 import webbrowser #the webbrowser dependency to access webbrowser
-#step-1 make the program wait for 'x' hours without essentially doing nothing
+#step-1 make the program wait for 1 hour without essentially doing nothing
 count=0
 num_of_breaks=2
 time_intervals=60*60
-#step-2 make the program open up the webbrowser and play a Youtube video 'x' number of times
+#step-2 make the program open up the webbrowser and play a Youtube video twice
 print ("This program started on "+time.ctime())
 while count<num_of_breaks:
     time.sleep(time_intervals)
